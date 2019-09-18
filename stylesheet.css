@@ -1,0 +1,45 @@
+p {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:rgb(255, 247, 247);
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid rgb(0, 127, 40);
+}
+#menu ul li a:hover {
+    background-color:rgba(199, 177, 177, 0.144);
+    color: #6D6D6D;
+    border-bottom:3px solid rgb(0, 234, 31);
+}
+img {
+    overflow:auto;   
+}
+
+img{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cab_verde {
+    background-color:rgb(0, 127, 40);
+
+}

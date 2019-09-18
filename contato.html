@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link href="favicon.ico" rel="shortcut icon" />
+	<title>ADS</title>
+	<meta name="description" content="">
+	<meta name="author" content="Gustavo Peleje">
+	<link href="stylesheet.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+
+<body>
+
+	<header id="cabecalho">
+		<div class="cab_verde"><img src="logo_IFSP.jpg" width="600px" height="100px" alt="Logo do IFSP" /></div>
+		<nav id="menu">
+			<ul class='barra_menu'>
+				<li><a class='current' href='./index.html'>&emsp;Home&emsp;</a></li>
+				<li><a href='./eventos.html'>&emsp;Eventos&emsp;</a></li>
+				<li><a href='./contato.html'>&emsp;Contatos&emsp;</a></li>
+				<li><a href='./sobre.html'>&emsp;Sobre&emsp;</a></li>
+				<li><a href='./entrar.html'>&emsp;Entrar&emsp;</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<h1>Mande uma mensagem</h1>
+	<form action="contato" method="POST" name="contato">
+		<label for="nome">Nome</label>:<br>
+		<input type="text" name="name_contact" id="name_contact" required title="Digite o seu nome"></br>
+		<label for="email">E-mail</label>:<br>
+		<input type="email" name="email" id="email" required title="Digite o seu e-mail"></br>
+		<label for="telefone">Telefone</label>:<br>
+		<input type="tel" name="telephone_contact" id="telephone_contact" required title="Digite o seu telefone"><a><b>
+				(99) 99999-9999</b></a><br>
+		Assunto<br />
+		<select name="assunto">
+			<option value="null">Selecione</option>
+			<option value="coord">Coordenadoria</option>
+			<option value="grade">Grade de curso</option>
+			<option value="info">informações</option>
+		</select><br>
+		<label for="input_mensagem">Mensagem</label><br>
+		<textarea name="mensagem" id="input_mensagem"></textarea>
+
+		<fieldset style="width: 40%;">
+			<legend>Opções de resposta:</legend>
+			<INPUT TYPE="checkbox" NAME="resp_email" VALUE="val_email"> E-mail
+			<INPUT TYPE="checkbox" NAME="resp_tel" VALUE="val_tel"> Telefone
+		</fieldset>
+
+		<input type="submit" value="Enviar" /></br></br>
+	</form>
+	<img src="green_bar.png" width="100%" height="10px" alt="barra verde" />
+
+	<footer>
+		<p>
+			&copy; <font size="2">IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo <br /> Câmpus
+				Pirituba -
+				Endereço: Av. Mutinga, 951 - Jardim Santo Elias, São Paulo - SP, 05110-000
+				<br />Telefone: (11) 98614-0334
+			</font>
+		</p>
+	</footer>
+	<img src="green_bar.png" width="100%" height="10px" alt="barra verde" />
+</body>
+
+</html>
